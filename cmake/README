@@ -1,0 +1,5 @@
+Cmake toolchain file for ARM Crosscompiler. Use like this
+
+cmake -DCMAKE_TOOLCHAIN_FILE=~/toolchain-arm.cmake ..  
+
+The paths inside the config file may need to be adapted to your toolchain location.
