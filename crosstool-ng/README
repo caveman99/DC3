@@ -1,5 +1,5 @@
 This Directory contains configuration files to set up a cross compiler environment for Allwinner A13 on the DC3 Board. It's not meant to produce full images, but single binaries for adding to the system image or testing out new features.
 
-Just set up crosstool-ng as detailed in the instructions and add it to your path, copy arm-cortexa9_neon-linux-gnueabihf-ct-ng.config to an empty working directory, rename it to .config and run ct-ng oldconfig
+Just set up crosstool-ng as detailed in the instructions at https://crosstool-ng.github.io/docs/install/#clone and add it to your path, copy arm-cortexa9_neon-linux-gnueabihf-ct-ng.config to an empty working directory, rename it to .config and run ct-ng oldconfig
 
-You can not build the toolchain.
+You can now build the toolchain.
